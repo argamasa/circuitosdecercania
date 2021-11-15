@@ -124,3 +124,40 @@
       display: none;
     }
     
+
+    footer{
+        position: fixed;
+        bottom: 0px;
+        left:3px;
+        z-index: 10;
+      }
+      footer h1 {
+        cursor: pointer;
+        margin: 0;
+      }
+      
+      #about{
+        font-size: 0.8rem;
+        position: fixed;
+        bottom: 0vh;
+        left: 0px;
+        z-index: 100;
+        text-align: justify;
+        padding: 20px;
+        height: auto;
+        width: 16vw; 
+        border: 1px solid #000000; 
+        transition: all 0.5s ease;
+        background-color: #fff;
+        display: inline-block;
+        text-decoration: none;
+      }
+
+      .mostrar{
+        top:10!important;
+      }
+
+      footer:hover{
+        text-decoration: underline;
+        color : #f00;
+      }
