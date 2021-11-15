@@ -39,10 +39,10 @@
     overflow: hidden;
     
 }
-.vimeo-wrapper iframe {
+.vimeo-wrapper0 iframe {
 
     
-    width: 52.5vw;
+    width: 40.5vw;
     height: 29.6vw;
     /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
     
@@ -56,6 +56,70 @@
     transform: translate(-50%, -50%);    
 }
 
+.vimeo-wrapper1 iframe {
+
+    
+    width: 20vw;
+    height: 29.6vw;
+    /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+    
+    position: absolute;
+    top: 12%;
+    right: 7%;
+    transform: translate(-50%, -50%);    
+} 
+
+.vimeo-wrapper2 iframe {
+
+    
+    width: 10vw;
+    height: 29.6vw;
+    /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+    
+    position: absolute;
+    top: 80%;
+    right: 20%;
+    transform: translate(-50%, -50%);    
+}
+
+.vimeo-wrapper3 iframe {
+
+    
+    width: 16vw;
+    height: 29.6vw;
+    /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+    
+    position: absolute;
+    top: 42%;
+    right: 1%;
+    transform: translate(-50%, -50%);    
+}
+
+.vimeo-wrapper4 iframe {
+
+    
+    width: 15vw;
+    height: 29.6vw;
+    /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+    
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    transform: translate(-50%, -50%);    
+}
+
+.vimeo-wrapper5 iframe {
+
+    
+    width: 10vw;
+    height: 29.6vw;
+    /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+    
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    transform: translate(-50%, -50%);    
+}
     .hidden {
       display: none;
     }
