@@ -22,6 +22,20 @@
     -webkit-font-feature-settings: "kern";
     -moz-font-feature-settings: "kern";
     -moz-font-feature-settings: "kern=1";
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    background-image: url("https://arena-attachments.s3.amazonaws.com/14096709/af773d345087065e48bb0e8f42e13486.svg?1637689498");
+    background-color: none;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
 }
 
   a:hover, a:active, a:visited{
@@ -42,7 +56,7 @@
 .vimeo-wrapper0 iframe {
 
     
-    width: 40.5vw;
+    width: 42.5vw;
     height: 29.6vw;
     /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
     
@@ -51,7 +65,7 @@
     /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
     
     position: absolute;
-    top: 50%;
+    top: 46.5%;
     left: 50%;
     transform: translate(-50%, -50%);    
 }
@@ -64,7 +78,7 @@
     /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
     
     position: absolute;
-    top: 12%;
+    top: 10%;
     right: 7%;
     transform: translate(-50%, -50%);    
 } 
@@ -131,33 +145,54 @@
         left:3px;
         z-index: 10;
       }
-      footer h1 {
-        cursor: pointer;
-        margin: 0;
+
+
+      .estrellacardinal img {
+        padding: 5px;
+        height: auto;
+        max-width: 110%;
+        width: 5vw;
+        position: fixed;
+        bottom: 5vh;
+        right: 2vw;
+      }
+        
+
+      .hover {
+        pointer-events: none;
+        display: inline-block;
+        position: absolute;
       }
       
-      #about{
-        font-size: 0.8rem;
-        position: fixed;
-        bottom: 0vh;
-        left: 0px;
-        z-index: 100;
-        text-align: justify;
-        padding: 20px;
-        height: auto;
-        width: 16vw; 
-        border: 1px solid #000000; 
-        transition: all 0.5s ease;
-        background-color: #fff;
+       
+      .readingimg {
+        display: none;
+        width: 40%;
+      }
+      
+      .readinglink:hover+.readingimg  {
         display: inline-block;
-        text-decoration: none;
+        position:fixed;
+        max-width: 110%;
+        width: 120vw;
+        right: -0.55vw;
+        bottom: -1.6vw;
+        }
+
+
+      .banner1 img{
+        max-width: 110%;
+        width: 100%;
+        height: auto;
+        position: fixed;
+     
       }
 
-      .mostrar{
-        top:10!important;
+      .banner2 img{
+        max-width: 110%;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        bottom: 0%;
       }
 
-      footer:hover{
-        text-decoration: underline;
-        color : #f00;
-      }
