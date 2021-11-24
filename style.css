@@ -40,7 +40,8 @@
 
 .clock {
   font-family: 'Outfit', sans-serif;
-  font-size: 1em;
+  font-size: 1vw;
+  letter-spacing: 0vw;
   position: fixed;
   top: 0.8vh;
   right: 1.5vw;
