@@ -27,6 +27,9 @@
     <script src="scripts/jquery.js"></script>
     <script src="scripts/modernizr.js"></script>
     <script src="scripts/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
     <script type="text/javascript">
     jQuery(document).ready(function() {
 	jQuery('#about').removeClass('mostrar')
@@ -51,6 +54,32 @@
     gtag('config', 'G-BGYZJBQNGD');
     </script>
     </script>
+
+<script>
+  function clock() {// We create a new Date object and assign it to a variable called "time".
+var time = new Date(),
+    
+    // Access the "getHours" method on the Date object with the dot accessor.
+    hours = time.getHours(),
+    
+    // Access the "getMinutes" method with the dot accessor.
+    minutes = time.getMinutes(),
+    
+    
+    seconds = time.getSeconds();
+
+document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+  
+  function harold(standIn) {
+    if (standIn < 10) {
+      standIn = '0' + standIn
+    }
+    return standIn;
+  }
+}
+setInterval(clock, 1000);
+</script>
+
 </head>
 
 <body>
@@ -59,6 +88,8 @@
       <img src="https://d2w9rnfcy7mm78.cloudfront.net/14096705/original_3d7a6701247bbe52a50ad6ac0aaaaf84.svg?1637689493?bc=0" 
       alt="banner superior" width="1000" height="1000" >        
   </div>
+
+  <div class="clock"></div>
 
   <div class="banner2">
     <img src="https://d2w9rnfcy7mm78.cloudfront.net/14096707/original_2d57f92a4fcd793e9e43a577f018c497.svg?1637689496?bc=0" 

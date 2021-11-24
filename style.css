@@ -38,6 +38,16 @@
     height: 100%;
 }
 
+.clock {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1em;
+  position: fixed;
+  top: 0.8vh;
+  right: 1.5vw;
+  color: #35529F;
+  
+}
+
   a:hover, a:active, a:visited{
     cursor: auto;
   }
