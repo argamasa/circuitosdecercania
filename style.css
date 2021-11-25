@@ -84,13 +84,13 @@
 .vimeo-wrapper1 iframe {
 
     
-    width: 20vw;
+    width: 14vw;
     height: 29.6vw;
     /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
     
     position: absolute;
-    top: 10%;
-    right: 7%;
+    top: 16%;
+    left: 10%;
     transform: translate(-50%, -50%);    
 } 
 
