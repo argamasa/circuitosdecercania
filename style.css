@@ -28,7 +28,7 @@ body {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
-  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/14145502/original_b8bdbdec3f19e6ba8cfe1c48dcf58bbc.svg?1638078397?bc=0");
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/14163309/original_ae372c2ab03490ab897dd9819681e6a0.svg?1638157299?bc=0");
   background-color: none;
   background-size: contain;
   background-position: center center;
@@ -37,7 +37,6 @@ body {
   background-size: cover;
   height: 100%;
 }
-
 
 
 .clock {
